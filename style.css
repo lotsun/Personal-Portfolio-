@@ -21,6 +21,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+
 header{
     position: fixed;
     width: 100%;    
@@ -167,6 +168,10 @@ section{
     transition: all.45s ease;
 }
 .btn2 span i:hover{
-    transform: scale(1.1); translate:5px;
+    transform: scale(1.1); translate:(5px);
 }
-
+header.sticky {
+    background: var(--bg-color);
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+}
