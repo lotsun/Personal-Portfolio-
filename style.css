@@ -16,33 +16,11 @@
     --big-font: 5rem;
     --h2-font: 3rem;
     --p-font: 1.1rem;
-        --font-size-6x: min(7.5vmin, calc(2rem + 1.2vmax));
-        --font-size-5x: min(6.5vmin, calc(1.1rem + 1.2vmax));
-        --font-size-4x: min(4vmin, calc(0.8rem + 1.2vmax));
-        --font-size-3x: min(6vmin, calc(1rem + 0.12vmax));
-        --font-size-2x: min(4vmin, calc(0.85rem + 0.12vmax));
-        --font-size-1x: min(2vmin, calc(0.65rem + 0.12vmax));
-        --width-2x: min(100vw, 1300px);
-        --width-1x: min(100%, 1200px);
-        --gap-3x: min(5vmin, 1.5rem);
-        --gap-2x: min(4.5vmin, 1rem);
-        --size-10x: min(15vmin, 5.5rem);
-        --size-9x: min(10vmin, 5rem);
-        --size-8x: min(10vmin, 4rem);
-        --size-7x: min(10vmin, 3rem);
-        --size-6x: min(8.5vmin, 2.5rem);
-        --size-5x: min(8vmin, 2rem);
-        --size-4x: min(8vmin, 1.5rem);
-        --size-3x: min(7vmin, 1rem);
-        --size-2x: min(5vmin, 1rem);
-        --size-1x: min(2.5vmin, 0.5rem);
 }
-
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-
 header{
     position: fixed;
     width: 100%;    
@@ -183,48 +161,12 @@ section{
     display: flex;  
     align-items: center;
     justify-content: center;    
-    font-size:17px;
     border-radius: 50%;
+    font-size:17px;
     margin-right: 15px;
     transition: all.45s ease;
 }
 .btn2 span i:hover{
-    transform: scale(1.1); translate:(5px);
+    transform: scale(1.1); translate:5px;
 }
-header.sticky {
-    background: var(--bg-color);
-    border-bottom: 1px solid #0E0A21;
-    padding: 12px 15%;
-}
-.about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items:center;
-    gap: 1.7rem;
-}
-.about-img img{
-    max-width: 530px;
-    height: auto;
-    width: 100%;
-    border-radius: 15px;
-}
-.about-text h2{
-    font-size: var(--h2-font);
-    line-height: 1;
-}
-.about-text h4{
-    font-size:24px;
-    font-weight: 600;
-    color: var(--text-color);
-    line-height:1.7;
-    margin: 15px 0 30px;
-}
-.about-text p{
-    color: var(--second-color);
-    font-size: var(--p-font);
-    line-height: 1.8;
-    margin-bottom: 4rem;
-}
-.services{
-    background: var(--main-color);
-}
+
