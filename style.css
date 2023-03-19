@@ -161,8 +161,8 @@ section{
     display: flex;  
     align-items: center;
     justify-content: center;    
-    font-size:17px;
     border-radius: 50%;
+    font-size:17px;
     margin-right: 15px;
     transition: all.45s ease;
 }
@@ -202,4 +202,6 @@ header.sticky {
     font-size: var(--p-font);
     line-height: 1.8;
     margin-bottom: 4rem;
+}
+    transform: scale(1.1); translate:5px;
 }
