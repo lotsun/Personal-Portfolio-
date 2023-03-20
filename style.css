@@ -178,7 +178,7 @@ header.sticky {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items:center;
-    gap: 1.7rem;
+    gap: 1.5rem;
 }
 .about-img img{
     max-width: 530px;
@@ -203,5 +203,118 @@ header.sticky {
     line-height: 1.8;
     margin-bottom: 4rem;
 }
-    transform: scale(1.1); translate:5px;
+.services{
+    background: var(--second-bg-color);
+}
+.main-text{
+    text-align: center;
+}
+.main-text p{
+    color: var(--second-color);
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.main-text h2{
+    font-size:var(--h2-font);
+    line-height: 1;
+}
+.services-content{
+    display:grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, auto)); 
+   align-items: center;
+   gap:2.5rem ;
+   margin-top: 5rem;
+}
+.box{
+    background: var(--bg-color);
+    padding: 35px 45px;
+    border-radius: 8px;
+    transition: all .45s ease;
+}
+.s-icon i{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.box h3{
+    font-size: 24px;
+ font-weight: 600;
+ color: var(--text-color);
+    margin-bottom: 15px;
+}
+.box p{
+    color: var(--second-color);
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+.read{
+    display:inline-block;
+    padding: 8px 18px;
+    background: #333333;
+    color: var(--second-color);
+    font-weight: 500;
+    border-radius: 8px; 
+    transition: all .45s ease ;
+}
+.read:hover{
+    letter-spacing: 1px;
+    background: #ffffff99;
+    color: var(--text-color);
+}
+.box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.Portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.1), #ff004f);
+    border-radius: 8px;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.layer h5{
+    font-size: 20px;    
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer p{
+    color: var(--second-color);    
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.layer i{
+   color: var(--main-color);
+    margin-top: 20px;
+    font-size: 20px;
+    background: var(--text-color);
+    width: 60px;
+    height: 60px;
 }
