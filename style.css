@@ -225,6 +225,8 @@ header.sticky {
    gap:2.5rem ;
    margin-top: 5rem;
 }
+
+/*stylying  for portfolio section*/
 .box{
     background: var(--bg-color);
     padding: 35px 45px;
@@ -317,4 +319,14 @@ header.sticky {
     background: var(--text-color);
     width: 60px;
     height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.row:hover img{
+    transform: scale(1.1);
+}
+.row:hover .layer{
+    height: 100%;
 }
