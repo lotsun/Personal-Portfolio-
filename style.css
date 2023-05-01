@@ -21,6 +21,7 @@ body{
     background-color: var(--bg-color);
     color: var(--text-color);
 }
+/*--header section and navbar starts---*/
 header{
     position: fixed;
     width: 100%;    
@@ -61,7 +62,7 @@ transition: all .45s ease;
 .navlist a.active{
     color: var(--main-color);
 }
-#manu-icon {
+#menu-icon {
     font-size: 35px;
     color: var(--text-color);
     z-index: 10001; 
@@ -72,6 +73,9 @@ transition: all .45s ease;
 section{
     padding: 160px 15% 120px;
 }
+/*--header section and navbar ends---*/
+
+/*--home section and body starts---*/
 .home{
     position: relative;
     height: 100vh;  
@@ -169,11 +173,16 @@ section{
 .btn2 span i:hover{
     transform: scale(1.1); translate:(5px);
 }
+
+/*--home section and body ends---*/
+
 header.sticky {
     background: var(--bg-color);
     border-bottom: 1px solid #0E0A21;
     padding: 12px 15%;
 }
+
+/*--about section starts---*/
 .about{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -203,6 +212,10 @@ header.sticky {
     line-height: 1.8;
     margin-bottom: 4rem;
 }
+
+/*--about me section ends---*/
+
+/*--Services section starts---*/
 .services{
     background: var(--second-bg-color);
 }
@@ -225,6 +238,7 @@ header.sticky {
    gap:2.5rem ;
    margin-top: 5rem;
 }
+/*--Services section ends---*/
 
 /*stylying  for portfolio section*/
 .box{
