@@ -4,4 +4,4 @@ This a Responsive Personal Portfolio Website built with HTML, CSS & JavaScript. 
 All projects are hosted on Netlify and have their source codes on my Github. 
 (Contains a Header, Home, About, Services, Portfolio, Contact Us. And adaptable to all mobile devices.
 
-![Web capture_25-5-2023_01522_deluxe-madeleine-8529cc netlify app](https://github.com/lotsun/Personal-Portfolio-/assets/50834895/1f8557d9-4d26-47a3-8362-47382c7fe1b7)
+![Web capture_9-6-2023_194858_127 0 0 1](https://github.com/lotsun/Personal-Portfolio-/assets/50834895/fd23422b-c066-4a36-98fb-4ada60599ae7)
