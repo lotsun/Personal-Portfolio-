@@ -1,4 +1,4 @@
-# Personal-Portfolio-
+# Personal Portfolio
 My Portfolio <br>
 This a Responsive Personal Portfolio Website built with HTML, CSS & JavaScript. the website has display for current projects and links the lead you to the project platform when you click.
 All projects are hosted on Netlify and have their source codes on my Github. 
